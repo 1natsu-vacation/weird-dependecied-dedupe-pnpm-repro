@@ -6,4 +6,17 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      '@webext-core/messaging':
+        specifier: ^2.0.1
+        version: 2.0.1
+
+packages:
+
+  '@webext-core/messaging@2.0.1':
+    resolution: {integrity: sha512-8XY00NXkWNL+dU+RmzTKWXu5NO9RPtsU2MMjqDuNSnttc+gb/BwSWNf+kafReDep397WZXMZoAlQYXKiNHWiyw==}
+
+snapshots:
+
+  '@webext-core/messaging@2.0.1': {}
